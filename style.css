@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #24252A;
+    color: white;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #24252A;
+    margin: 0 auto;
+    height: 58px;
+}
+
+img {
+    box-shadow: 0 0 1px white;
+    opacity: 0.95;
+}
+
+img:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav p {
+    font-size: 18px;
+    padding: 20px 80px 20px 80px;
+    font-family: 'Kaushan Script';
+}
+
+header nav p:hover {
+    background-color: white;
+    color: #24252A;
+    transition: 0.3s;
+    box-shadow: 0 0 3px silver;
+}
+
+main {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #24252A;
+}
+
+main div {
+    margin: 20px 0 20px 0;
+    background-color: #24252A;
+}
+
+.articles:hover {
+    color: #24252A;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 3px silver;
+    transition: 0.2s;
+}
+
+.articles h2 {
+    font-size: 30px;
+    padding: 20px 100px 15px 100px;
+    font-family: 'Kaushan Script';
+}
+
+.project-description {
+    font-size: 18px;
+    padding: 10px 100px 10px 100px;
+}
+
+.inline-words {
+    font-family: 'Condiment', cursive;
+}
+
+.articles img {
+    width: 300px;
+    height: 150px;
+}
+
+.breaker {
+    width: 100%;
+    background-color: white;
+    height: 3px;
+    border-radius: 25px;
+}
+
+.breaker:hover {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: #24252A;
+    font-size: 18px;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
